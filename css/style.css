@@ -39,7 +39,22 @@
     animation: scroll-x-clouds 20s infinite linear;
 }
 
+.score{
+    border: solid  5px black;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+}
 
+.score p{
+    margin: 15px auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    
+}
 
 @keyframes  scroll-x-pipe{
     from {
@@ -74,7 +89,6 @@
     }
 
 }
-
 
 @keyframes scroll-x-clouds{
     
